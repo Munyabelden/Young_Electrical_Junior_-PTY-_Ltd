@@ -4,39 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fae70738af.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
     <title></title>
 </head>
 <body>
+  <div class="desktop-column">
+    <span>Since 2015</span>
+    <span>guarantee 3yrs</span>
+    <span>Get in touch with our product manager: 0839441882</span>
+  </div>
+  <header class="header">
     <nav class="navigation">
-      <h1>Young Electrical Junior (PTY) Ltd</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Contact us</a></li>
+      <button type="button" class="menu-bar">
+        <div class="bars bar-1"></div>
+        <div class="bars bar-2"></div>
+        <div class="bars bar-3"></div>
+      </button>
+      <span class="logo">Young Electrical Junior (PTY) Ltd</span>
+        <ul class="primary-navigation">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">About us</a></li>
+          <li><a href="#" class="nav-link">Contact us</a></li>
+          <li><button type="button" class="button">Schedule a service</button></li>
       </ul>
     </nav>
+    <div class="header-details">
+      <h1>Young Electrical <br> Junior (PTY) Ltd</h1>
+      <p>Trusted since 2015, with guarantee of over 3yrs on all <br> our products and services.<strong>Powering Your Success.</strong></p>
+    </div>
+  </header>
     <main>
         <div>
-            Since 2015
             Director Agripah(Electrical Engineer)
-            guarantee 3yrfa-spin cell-number 0839441882
-            address d19 hamsley place partland
-            Electrical installation and maintanance domestic and commercial industrial
-            issuing coc 
-            solar installation, inverters and ups backup 
-            single and three phase
+            guarantee 3yrs cell-number 0839441882
+            <section>
+              <h2>About Our Company</h2>
+              <div>
+                <p>
+                  With a strong presence in the electrical industry since 2015, we specialize in providing top-notch electrical installation and maintenance services for both domestic and commercial-industrial clients. Our team of experienced professionals is dedicated to ensuring that your electrical systems are installed, maintained, and optimized to the highest standards.
+                </p>
+                <p>
+                  As a trusted provider, we take pride in our ability to issue Certificate of Compliance (CoC) for all our electrical installations. We understand the importance of safety and compliance, and our diligent approach ensures that every project meets the required regulations and standards.
+                </p>
+                <p>
+                  In addition to our electrical services, we are proud to offer solar installation solutions. Our expertise extends to installing solar panels, inverters, and providing reliable UPS backup systems. We believe in harnessing the power of renewable energy to reduce our carbon footprint and help our clients achieve energy efficiency.
+                </p>
+                <p>
+                  Whether you require single-phase or three-phase electrical solutions, our team has the knowledge and skills to handle any project. We strive for excellence in every task we undertake, ensuring that your electrical systems are not only functioning optimally but also tailored to meet your unique needs.
+                </p>
+                <p>
+                  Customer satisfaction is at the heart of everything we do. We prioritize clear communication, timely completion of projects, and delivering quality results. With our reliable and professional services, we aim to build long-term relationships with our clients based on trust and exceptional service.
+                </p>
+                <p>
+                  Contact us today to discuss your electrical requirements. We look forward to working with you and exceeding your expectations.
+                </p>
+                <button type="button">Request a Consultation</button>
+              </div>
+            </section>
         </div>
     </main>
-    <div>
-      <form action="" method="POST">
+    <div class="contact-info">
+      <h3>Send us an email</h3>
+      <form action="" method="POST" class="form">
         <input type="text" name="name" id="name" placeholder="Write your name" required>
         <input type="email" name="email" id="email" placeholder="Write your email" required>
         <input type="number" name="number" id="email" placeholder="Wrie your phone number" required>
         <textarea name="textarea" id="textarea" cols="30" rows="10" required>Write Your Message</textarea>
-        <button type="submit">send</button>
+        <button type="submit" class="form-submit">send</button>
       </form>
+      <div>
+        <h2>Come to our offices and talk to the</h2>
+        <span><h3>Address:</h3> D19 Hamsley Place Parklands</span>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.5313877516774!2d18.510637475070567!3d-33.79859751542499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc58b293edd4b1%3A0x981d625f2e0ac2e4!2sHamsley%20Place!5e0!3m2!1sen!2sza!4v1684661524495!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
+    <footer>
+      <h2></h2>
+      <h3>Your Trusted Electrical Partner Since 2015</h3>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li>Electrical Installation and Maintanance</li>
+          <li>Issuing Certificates of Compliance (COC)</li>
+          <li>Solar Panel Installation</li>
+          <li>Single phase or Three phase electrical installations</li>
+        </ul>
+      </div>
+      <span>Copyright  Nate~Mel</span>
+    </footer>
 </body>
 </html>

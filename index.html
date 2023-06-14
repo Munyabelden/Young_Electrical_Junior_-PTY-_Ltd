@@ -31,17 +31,18 @@
         <li><button type="button" class="menu-exit"><i class="fa-solid fa-circle-xmark"></i></button></li>
         <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-        <li><a href="#services" class="nav-link nav-scroll">Services</a></li>
-        <li><a href="#form" class="nav-link nav-scroll">Contact us</a></li>
+        <li><a href="services.html" class="nav-link nav-scroll">Services</a></li>
+        <li><a href="contact.html" class="nav-link nav-scroll">Contact us</a></li>
       </ul>      
     </nav>
-    <div class="header-text">
-      <div class="description">
-        <h1>Young Electrical <br> Junior (PTY) Ltd</h1>
-        <p>Trusted since 2015, with guarantee of over 3yrs on all our products and services. We invite you to join us on this incredible journey as we power the world, one connection at a time. <strong>Powering Your Success.</strong> </p>
-        <a href="#" type="button" class="header-btn">Get a quote</a>
+      <div class="header-container header-text">
+        <div class="description">
+          <h1>Young Electrical <br> Junior (PTY) Ltd</h1>
+          <p>Trusted since 2015, with guarantee of over 3yrs on all our products and services. We invite you to join us on this incredible journey as we power the world, one connection at a time. <strong>Powering Your Success.</strong> </p>
+          <a href="#" type="button" class="header-btn">Get a quote</a>
+        </div>
+        <img src="assets/hands.jpg" alt="White hands" />
       </div>
-    </div>
   </header>
   <button id="backToTopBtn" title="Back to Top">&uarr;</button>
     <main id="about">
@@ -55,19 +56,20 @@
           <img class="fade-in-up" src="assets/manu.jpg" alt="Man working" />
         </div>
         <div class="about-cards">
+          <h2 class="about-title cards-title">Foundational Ideals</h2>
           <div class="card fade-in-up">
             <div class="card-1">
               <span class="sr-only">Intergrity</span> 
             </div>
            <h4>Intergrity</h4>
-           <p>We are consistently upholding the highest ethical standards throughout our operations. With unwavering honesty, transparency, and accountability, we have fostered a culture of trust and reliability. Upholding an unwavering dedication to doing what is right, even when faced with difficult challenges, has earned us a well-deserved reputation for integrity.</p>
+           <p>Our operations are committed to promoting the highest ethical standards with unwavering honesty, transparency, and accountability. Fostering a culture of trust, reliability and upholding a persisant dedication to doing what is right despite encountering formidable challenges, has earned us a well-deserved reputation for resilience.</p>
           </div>
           <div class="card fade-in-up">
             <div class="card-2">
               <span class="sr-only">Relationships</span>
             </div>
             <h4>Relationships</h4>
-            <p> We prioritize cultivating long-term relationships with our clients, suppliers, and partners, understanding that trust, reliability, and mutually beneficial interactions are essential for sustained success. By prioritizing relationships, YEJ creates a foundation of trust and collaboration that drives our continued growth and prosperity.</p>
+            <p> Cultivating long-term relationships with our clients, suppliers, and partners is a priority. We understand that trust, reliability, and mutually beneficial interactions are essential for sustained success. By prioritizing relationships, YEJ creates a foundation of trust and collaboration that drives our continued growth and prosperity.</p>
           </div>
           <div class="card fade-in-up">
             <div class="card-3">
@@ -79,14 +81,13 @@
         </div>
     </main>
     <div id="services" class="services">
+      <div class="background">
+        <span class="sr-only">yes</span>
+      </div>
       <div class="service-details">
         <h2 class="fade-in-up about-title"><span><i class="fa-solid fa-user-helmet-safety"></i></span>What We Do</h2>
         <p class="fade-in-up">
           With a strong presence in the electrical industry since 2015, we specialize in providing top-notch electrical installation and maintenance services for both domestic and commercial-industrial clients. Our team of experienced professionals is dedicated to ensuring that your electrical systems are installed, maintained, and optimized to the highest standards.
-        </p>
-        
-        <p class="fade-in-up">
-          As a trusted provider, we take pride in our ability to issue Certificate of Compliance (CoC) for all our electrical installations. We understand the importance of safety and compliance, and our diligent approach ensures that every project meets the required regulations and standards.
         </p>
         <p>
           In addition to our electrical services, we are proud to offer solar installation solutions. Our expertise extends to installing solar panels, inverters, and providing reliable UPS backup systems. We believe in harnessing the power of renewable energy to reduce our carbon footprint and help our clients achieve energy efficiency.
@@ -94,36 +95,19 @@
         <p class="fade-in-up">
           Whether you require single-phase or three-phase electrical solutions, our team has the knowledge and skills to handle any project. We strive for excellence in every task we undertake, ensuring that your electrical systems are not only functioning optimally but also tailored to meet your unique needs.
         </p>
-        <p class="fade-in-up">
-          Customer satisfaction is at the heart of everything we do. We prioritize clear communication, timely completion of projects, and delivering quality results. With our reliable and professional services, we aim to build long-term relationships with our clients based on trust and exceptional service.
-        </p>
         <p class="last">
           Contact us today to discuss your electrical requirements. <br> We look forward to working with you and exceeding your expectations.
         </p>
-        <button type="button" class="services-btn">Request a Consultation</button>
+        <button type="button" class="services-btn">View Detailed Service Offerings</button>
       </div>
     </div>
-    <div id="form" class="contact-info">
       <div class="dark">
-        <div class="form-section">
-          <h3>Send us an email</h3>
-          <form action="" method="POST" class="form">
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
-            <p class="email-error">This email is invalid</p>
-            <input type="number" maxlength="10" minlength="10" name="number" id="phone-number" placeholder="Enter your phone number" required>
-            <textarea name="textarea" id="textarea" cols="30" rows="10" required>Write Your Message</textarea>
-            <p class="error-message">Please fill in all the inputs</p>
-            <button type="submit" class="form-submit">send</button>
-          </form>
-        </div>
-        <div class="map">
-          <h3>Come to our offices and talk to the</h3>
-          <span><strong>Address:</strong> D19 Hamsley Place Parklands</span>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.5313877516774!2d18.510637475070567!3d-33.79859751542499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc58b293edd4b1%3A0x981d625f2e0ac2e4!2sHamsley%20Place!5e0!3m2!1sen!2sza!4v1684661524495!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <h3>Send us an email</h3>
+        <p>
+          We would be delighted to assist you with your electrical engineering and solar installation needs. Whether you have questions, require expert advice, or would like to request a quote, our dedicated team is here to help. Please don't hesitate to reach out to us at your convenience, and let us provide you with top-notch solutions tailored to your specific requirements. Contact us today and take the first step towards a brighter, more sustainable future.
+        </p>
+        <a href="#" class="contact-button">Get in touch</a>
       </div>
-    </div>
     <footer class="footer">
       <h3>Your Trusted Electrical Partner Since 2015</h3>
       <span>Powering your success</span>

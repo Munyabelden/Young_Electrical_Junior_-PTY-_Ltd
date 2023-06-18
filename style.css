@@ -179,11 +179,11 @@ to {
 }
 
 .header-text .description {
-  background: rgb(208,203,164);
+  background: rgb(189, 184, 149);
   width: 50%;
   padding-inline: 30px;
   padding-top: 150px;
-  color: #f4f1f1;
+  color: #ffffff;
   min-height: 80vh;
   text-align: start;
   border-radius: 5px;
@@ -224,7 +224,8 @@ to {
 
 .header-container img {
   width: 50%;
-  min-height: 80vh;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .header-text .description h1 {
@@ -377,7 +378,7 @@ main {
 .background {
   position: fixed;
   left: 0;
-  top: 40px;
+  top: 0;
   width: 100%;
   min-height: 100vh;
   background-image: url('./assets/solar.jpg');
@@ -539,6 +540,12 @@ main {
 
 .service-body {
   background-color: #f4f1f1;
+}
+
+/* Services page */
+
+.service img {
+  width: 300px
 }
 
 .gallery p {

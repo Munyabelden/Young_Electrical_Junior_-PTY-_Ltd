@@ -14,19 +14,19 @@ menuItem.addEventListener('click', () => {
   }
 });
 
-window.addEventListener('scroll', function() {
-  var background = document.querySelector('.background');
-  var content = document.getElementById('content');
-  var scrollHeight = 2000;
+// window.addEventListener('scroll', function() {
+//   var background = document.querySelector('.background');
+//   var content = document.getElementById('content');
+//   var scrollHeight = 2000;
 
-  if (window.scrollY >= scrollHeight) {
-    background.style.position = 'absolute';
-    content.style.marginTop = '0';
-  } else {
-    background.style.position = 'fixed';
-    content.style.marginTop = scrollHeight + 'px';
-  }
-});
+//   if (window.scrollY >= scrollHeight) {
+//     background.style.position = 'absolute';
+//     content.style.marginTop = '0';
+//   } else {
+//     background.style.position = 'fixed';
+//     content.style.marginTop = scrollHeight + 'px';
+//   }
+// });
 
 
 document.querySelectorAll('.nav-scroll').forEach(link => {

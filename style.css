@@ -30,7 +30,7 @@ ul {
   gap: 5px
 }
 
-.logo img {
+.logo fixed img {
   width: 200px;
 }
 
